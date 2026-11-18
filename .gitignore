@@ -1,0 +1,30 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Generated and local data files
+data/extracted/
+data/transformed/
+
+# Local logs and OS files
+*.log
+.DS_Store
+Thumbs.db
